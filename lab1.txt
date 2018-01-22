@@ -1,0 +1,24 @@
+> mkdir yourname
+	example: mkdir nischay13
+> cd yourname
+	example: cd nischay13
+
+>python has two windows
+	1. text window
+	2. shell window
+
+>python commands
+	1. print(" name ")
+	output= name
+	2. a=10(assigning values to variable)
+	   b=20(assigning values to variable)
+	   c=a+b (stores the sum of a and b)
+	   print (c)
+	output=30
+	3. #this is a comment line
+	4.#inputing values from the user
+	    a=input("enter a value")
+	    b=input("enter b value")
+	    c=(int)a+(int)b
+	    print (c)
+	   this will print the sum of a and b stored in c
