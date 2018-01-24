@@ -1,0 +1,112 @@
+
+
+
+>>> print("nischay")
+nischay
+
+>>> 5//2
+2
+>>> 5.6//2  #flaw division
+2.0
+
+>>> 5**2  #exponential function
+25
+
+
+conditional statements:
+
+1.) if condition
+	syntax :
+                  if	condition:
+			statements
+
+	example :
+			a=int(input("input the number to check if positive or negative"))
+			if a>0:
+    				print (a ," is a positive number")
+
+			if  a<0:
+   			 	print(a ," is a negatibe number")
+	output :input the number to check if positive or negative77
+		77  is a positive number
+
+
+2.)if else statement
+	
+	syntax: 
+		if condition:
+			statements
+		else:
+			statements
+
+	example:
+		a=int(input("input the number to check if positive or negative:"))
+		if a>0:
+   		     print (a ," is a positive number")
+		else:
+       		     print(a," is a negative number")
+
+	output:
+		input the number to check if positive or negative:-15
+		-15  is a negative number
+
+3. if-else ladder
+
+	Syntax:
+		if condition1:
+			statement1
+		elif condition2:
+			statement2
+		.
+		.
+		.
+		.
+		elif condition_n:
+			statement_n
+
+		else
+			else_statement;
+
+	example:
+		a=int(input("enter marks"))
+
+		if a>90:
+  		  print("grade A")
+		elif a>70:
+   		 print("grade B")
+		elif a>50:
+   		 print("grade C")
+		else:
+    		print("fail")
+
+	Output:
+		enter marks20
+		fail
+
+
+
+LOOPS
+
+1.)while
+
+	Syntax:
+		while(condition):
+			statements
+			updating
+
+	example
+		i=0
+		while(i<=4):
+   		 print(i)
+    		i=i+1
+	output
+		0
+		1
+		2
+		3
+		4
+
+
+
+		
+		  
