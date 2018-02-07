@@ -1,0 +1,12 @@
+ASSIGNMENT OPERATOR
+
+
+1. MULTIPLE ASSIGNMENT
+
+	a,b,c=5,10,15
+	print ("\n",a,"\n",b,"\n",c)
+
+	OUTPUT:
+	 5 
+	 10 
+	 15
