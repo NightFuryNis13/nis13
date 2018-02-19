@@ -1,0 +1,58 @@
+DIFFERENCE BETWEEN FOR AND WHILE
+
+FOR LOOP
+
+for i in range(0,10,3):
+    print(i)
+
+OUTPUT:
+0
+3
+6
+9
+
+FOR LOOP WITH LISTS
+
+for i in [2,4,7,9,0]:
+    if(i%2==0):
+        print(i," is even")
+
+
+OUTPUT
+
+2  is even
+4  is even
+0  is even
+
+
+WHILE LOOP WITH BREAK STATEMENT
+
+i=1
+while(i<10):
+    if(i==3):
+        break
+    print(i)
+    i+=1
+
+OUTPUT:
+1
+2
+
+FOR LOOP WITH CONTINUE STATEMENT
+
+a="nischay"
+for i in a:
+    if(i==a[4]):
+        continue
+    print(i)
+
+
+OUTPUT:
+
+n
+i
+s
+c
+a
+y
+
